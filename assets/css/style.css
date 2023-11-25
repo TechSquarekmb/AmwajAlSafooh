@@ -1012,13 +1012,13 @@ header .header-nav .nav-container.breakpoint-on .nav-menu .menu-items ul li a {
   padding: 0px 15px;
 }
 
-
-
 .site-logo span{
- font-weight: bold;
- font-size: 20px;
- line-height: 22px;
-}
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+ }
+
+
 header .header-nav .nav-container.breakpoint-on .nav-menu .menu-items ul li .submenu {
   width: 100%;
   position: relative;
@@ -1114,7 +1114,7 @@ header .header-nav::before {
 }
 @media (max-width: 991px) {
   header .header-nav::before {
-    width: 220px;
+    width: 270px;
   }
 }
 header.sticky-header.sticky-on .header-nav {
@@ -7186,7 +7186,7 @@ header.header-three .header-nav::before {
   font-weight: 500;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top:15px;	
+  margin-top: 15px;
 }
 .service-tab .nav-link.active {
   background-color: #fc0037;
